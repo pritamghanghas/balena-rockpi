@@ -9,3 +9,7 @@ HOSTAPP_HOOKS_append_rockpi-4b-rk3399 = " \
 HOSTAPP_HOOKS_append_radxa-zero-s905y2 = " \
     99-flash-bootloader-radxa-zero-s905y2 \
 "
+
+HOSTAPP_HOOKS_append_rockpi-s-rk3308 = " \
+    99-flash-bootloader \
+"

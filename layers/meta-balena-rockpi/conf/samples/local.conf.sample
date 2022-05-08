@@ -1,6 +1,7 @@
 # Supported machines
 #MACHINE ?= "radxa-zero-s905y2"
 #MACHINE ?= "rockpi-4b-rk3399"
+#MACHINE ?= "rockpi-s-rk3308"
 
 BALENA_STORAGE = "overlay2"
 

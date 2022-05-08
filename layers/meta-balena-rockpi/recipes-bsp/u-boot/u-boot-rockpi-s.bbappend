@@ -8,12 +8,8 @@ DEPENDS += "radxa-binary-loader radxa-binary-native"
 
 SRC_URI_append = " \
     file://0002-fs-fat-fix-wrong-casting-to-unsigned-value-of-sect_t.patch \
-    file://0003-Revert-cmd-nvedit-add-0x-prefix-for-hex-value.patch \
     file://balenaos_bootcommand.cfg \
 "
-
-BALENA_BOOT_PART_rockpi-4b-rk3399 = "4"
-BALENA_DEFAULT_ROOT_PART_rockpi-4b-rk3399 = "5"
 
 BALENA_BOOT_PART_rockpi-s-rk3308 = "4"
 BALENA_DEFAULT_ROOT_PART_rockpi-s-rk3308 = "5"
