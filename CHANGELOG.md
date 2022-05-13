@@ -1,6 +1,343 @@
 # v2.83.1+rev1
 ## (2021-08-04)
 
+# v2.98.23
+## (2022-05-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.23
+> ### (2022-05-11)
+> 
+> * linux-firmware: Fix quz-a0-hr-b0 and quz-a0-jf-b0 packaging for compression [Michal Toman]
+> 
+</details>
+
+# v2.98.22
+## (2022-05-11)
+
+
+<details>
+<summary> Update layers/meta-balena to b66f92f791bee0527107453183f60fa9d659dbf9 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.22
+> ### (2022-05-11)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 01719b5 [Renovate Bot] </summary>
+> 
+>> ### leviathan-2.3.3
+>> #### (2022-05-09)
+>> 
+>> * Fixes spelling and grammar in e2e [Alex]
+>> 
+>> ### leviathan-2.3.2
+>> #### (2022-05-02)
+>> 
+>> * Record environment variables to file for client env [Kyle Harding]
+>> 
+>> ### leviathan-2.3.1
+>> #### (2022-05-02)
+>> 
+>> * patch: Remove development shortcuts [Vipul Gupta (@vipulgupta2048)]
+>> 
+>> ### leviathan-2.3.0
+>> #### (2022-04-29)
+>> 
+>> * minor: Add support for debug object [Vipul Gupta (@vipulgupta2048)]
+>> 
+>> ### leviathan-2.2.14
+>> #### (2022-04-29)
+>> 
+>> * patch: Remove Express server port config [Vipul Gupta (@vipulgupta2048)]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.98.21
+> ### (2022-05-11)
+> 
+> * contributing-device-support.md: Enhance device contribution guide [Florin Sarbu]
+> 
+</details>
+
+# v2.98.20
+## (2022-05-11)
+
+
+<details>
+<summary> Update layers/meta-balena to c98cda89f0be6c168599a2a155ec42a148d0a6cc [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.20
+> ### (2022-05-10)
+> 
+> * renovate: Override commit body for meta-balena to Change-type [Kyle Harding]
+> * renovate: Remove extra leviathan package rules [Kyle Harding]
+> 
+</details>
+
+# v2.98.19
+## (2022-05-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.19
+> ### (2022-05-10)
+> 
+> * tests/connectivity: Force proxy tests to use IPv4 [Kyle Harding]
+> * tests/connectivity: Fix compose warnings for expected string [Kyle Harding]
+> 
+> ## meta-balena-2.98.18
+> ### (2022-05-10)
+> 
+> 
+> <details>
+> <summary> supervisor: Update balena-supervisor to v13.1.6 [Alex Gonzalez] </summary>
+> 
+>> ### balena-supervisor-13.1.6
+>> #### (2022-05-06)
+>> 
+>> * Avoid splash image failures if image is corrupt [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-13.1.5
+>> #### (2022-05-03)
+>> 
+>> * Use write + sync when writing configs to /mnt/boot [Felipe Lalanne]
+>> 
+> </details>
+> 
+> 
+</details>
+
+# v2.98.17+rev1
+## (2022-05-08)
+
+* Update BSP to latest dunfell in order to fix WiFi timing issues [Florin Sarbu]
+
+# v2.98.17
+## (2022-05-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 42c71bfea112ba44e59488fe93284a583654622f [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.17
+> ### (2022-05-06)
+> 
+> * renovate: Override default package rules to enable leviathan [Kyle Harding]
+> 
+> ## meta-balena-2.98.16
+> ### (2022-05-05)
+> 
+> * renovate: Replace tests with tests/suites in default ignorePaths [Kyle Harding]
+> 
+</details>
+
+# v2.98.15
+## (2022-05-04)
+
+
+<details>
+<summary> Update layers/meta-balena to 9685efd5bf2ae5b12d307b2f879c51bd6dbab82e [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.15
+> ### (2022-05-04)
+> 
+> * Rename renovate config [Kyle Harding]
+> 
+</details>
+
+# v2.98.14
+## (2022-05-04)
+
+
+<details>
+<summary> Update layers/meta-balena to 2e10b2d1990f200f5854b2317a71c2272e755df1 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.14
+> ### (2022-05-04)
+> 
+> 
+> <details>
+> <summary> supervisor: Update balena-supervisor to v13.1.4 [Kyle Harding] </summary>
+> 
+>> ### balena-supervisor-13.1.4
+>> #### (2022-04-28)
+>> 
+>> * Use delay instead of interval to recursively report state [20k-ultra]
+>> 
+>> ### balena-supervisor-13.1.3
+>> #### (2022-04-20)
+>> 
+>> * Remove in memory storage of started/stopped containers [20k-ultra]
+>> * Only start a container once in its lifetime This will ensure the restart policy specified is not violated [20k-ultra]
+>> 
+>> ### balena-supervisor-13.1.2
+>> #### (2022-04-18)
+>> 
+>> * Explain /v2/state/status's status field in its response [Christina Wang]
+>> 
+>> ### balena-supervisor-13.1.1
+>> #### (2022-04-13)
+>> 
+>> * Do not fail lockfile cleanup if files do not exist [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-13.1.0
+>> #### (2022-04-12)
+>> 
+>> * Add lockfile binary and internal lib for interfacing with it [Christina Wang]
+>> 
+>> ### balena-supervisor-13.0.3
+>> #### (2022-04-08)
+>> 
+>> * Add system id/model support for Compulab IOT-gate [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-13.0.2
+>> #### (2022-04-08)
+>> 
+>> * Correctly evaluate downloadProgress when computing current state [20k-ultra]
+>> 
+>> ### balena-supervisor-13.0.1
+>> #### (2022-04-01)
+>> 
+>> * Fix database migration for legacyApps [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-13.0.0
+>> #### (2022-03-23)
+>> 
+>> * Add support for GET v3 target state [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-12.11.43
+>> #### (2022-03-21)
+>> 
+>> * Always add status to image download report [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-12.11.42
+>> #### (2022-03-18)
+>> 
+>> * Moved test setup into file included for all tests [20k-ultra]
+>> 
+>> ### balena-supervisor-12.11.41
+>> #### (2022-03-16)
+>> 
+>> * Added PR template doc [20k-ultra]
+>> 
+>> ### balena-supervisor-12.11.40
+>> #### (2022-03-16)
+>> 
+>> * Only count report connectivity errors for healthcheck [Felipe Lalanne]
+>> * update packages for vulnerabilities [20k-ultra]
+>> 
+>> ### balena-supervisor-12.11.39
+>> #### (2022-03-16)
+>> 
+>> * Move report throttle out of reporting logic [20k-ultra]
+>> * Update npm dep sinon to v11.1.2 [20k-ultra]
+>> 
+> </details>
+> 
+> 
+</details>
+
+# v2.98.13
+## (2022-05-04)
+
+
+<details>
+<summary> Update layers/meta-balena to 393f57d8695ff3d349370f730cabe31d927fc530 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.13
+> ### (2022-05-03)
+> 
+> * os: tests: optimize connectivity tests [Joseph Kogut]
+> 
+</details>
+
+# v2.98.12+rev1
+## (2022-05-04)
+
+* Fix WiFi after reboot on Radxa Zero [Florin Sarbu]
+
+# v2.98.12
+## (2022-05-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 0c96705ba26cda1062eff0b128eccb4f9388f9cc [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.12
+> ### (2022-05-02)
+> 
+> * tests/hup: Test hostapp-update from current release [Kyle Harding]
+> 
+</details>
+
+# v2.98.11
+## (2022-04-30)
+
+
+<details>
+<summary> Update layers/meta-balena to e13f4afb2c6311450db3fc4e9cb74ef31132e8d6 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.11
+> ### (2022-04-29)
+> 
+> * tests: os: create swap test [Joseph Kogut]
+> 
+</details>
+
+# v2.98.10
+## (2022-04-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 45726c6e1009bd1988071131762c483193a5ef59 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.10
+> ### (2022-04-28)
+> 
+> * tests: bump leviathan to 2.13 [rcooke-warwick]
+> 
+</details>
+
+# v2.98.9
+## (2022-04-28)
+
+
+<details>
+<summary> Update layers/meta-balena to fc45fb36cc79e5b7eab1017f4e5713773aba7ed1 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.9
+> ### (2022-04-28)
+> 
+> * tests: bump leviathan to 2.2.11 [rcooke-warwick]
+> 
+> ## meta-balena-2.98.8
+> ### (2022-04-28)
+> 
+> * tests/cloud: fix ssh test for testbot workers [rcooke-warwick]
+> 
+</details>
+
+# v2.98.7+rev1
+## (2022-04-28)
+
+
+<details>
+<summary> Update balena-yocto-scripts to fe688d2bfbb121401830ec804fa423619048a224 [Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.4
+> ### (2022-04-28)
+> 
+> * balena-api.inc: fix 'fatal: unsafe repository' [Florin Sarbu]
+> 
+</details>
+
 # v2.98.7
 ## (2022-04-27)
 
