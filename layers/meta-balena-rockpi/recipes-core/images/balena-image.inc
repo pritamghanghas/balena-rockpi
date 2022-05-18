@@ -45,7 +45,7 @@ BALENA_BOOT_PARTITION_FILES_append_rockpi-4b-rk3399 = " \
     overlays/w1-gpio4-30.dtbo:/overlays/w1-gpio4-30.dtbo \
 "
 BALENA_BOOT_PARTITION_FILES_append_rockpi-s-rk3308 = "\
-    rk3399-rock-pi-s.dtb:/ \
+    rk3308-rock-pi-s.dtb:/ \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     hw_intfc.conf:/ \
     overlays/at24c02.dtbo:/overlays/at24c02.dtbo \

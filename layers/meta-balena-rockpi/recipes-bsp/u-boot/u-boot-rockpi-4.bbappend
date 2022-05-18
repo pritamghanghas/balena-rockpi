@@ -15,9 +15,6 @@ SRC_URI_append = " \
 BALENA_BOOT_PART_rockpi-4b-rk3399 = "4"
 BALENA_DEFAULT_ROOT_PART_rockpi-4b-rk3399 = "5"
 
-BALENA_BOOT_PART_rockpi-s-rk3308 = "4"
-BALENA_DEFAULT_ROOT_PART_rockpi-s-rk3308 = "5"
-
 do_compile_append() {
     # create bootloader image
     loaderimage --pack --uboot ./u-boot-dtb.bin ${DEPLOY_DIR_IMAGE}/u-boot.img 0x200000 --size 1024 1
