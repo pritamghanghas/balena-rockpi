@@ -12,12 +12,6 @@ do_deploy_append_rockpi-4b-rk3399() {
     sed -i 's/#intfc:dtoverlay=devspi1/intfc:dtoverlay=devspi1/g' ${DEPLOYDIR}/hw_intfc.conf
 }
 
-do_deploy_append_rockpi-s-rk3308() {
-    sed -i 's/intfc:spi1=off/intfc:spi1=on/g' ${DEPLOYDIR}/hw_intfc.conf
-    sed -i 's/intfc:i2c7=off/intfc:i2c7=on/g' ${DEPLOYDIR}/hw_intfc.conf
-    sed -i 's/#intfc:dtoverlay=devspi1/intfc:dtoverlay=devspi1/g' ${DEPLOYDIR}/hw_intfc.conf
-}
-
 # remove in-tree brcmfmac, cfg80211 and the entire of Rockchip's WiFi stack because we will be using a 5.4.18 backported brcmfmac version instead
 BALENA_CONFIGS_append_rockpi-4b-rk3399 = " no-in-tree_wifi-no-rockchip-wl"
 BALENA_CONFIGS[no-in-tree_wifi-no-rockchip-wl] = " \
